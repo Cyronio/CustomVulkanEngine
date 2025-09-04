@@ -1,9 +1,11 @@
 
-set IMGUI="C:\data\GitHub\ViennaVulkanEngine\extern\imgui"
+set IMGUI="C:\Users\cyro1\source\repos\imgui"
 echo %IMGUI%
 set VULKAN=%VULKAN_SDK%
 rem set VULKAN="C:\VulkanSDK\
 echo %VULKAN%
+set IRRKLANG="C:\Users\cyro1\source\repos\irrKlang"
+echo %IRRKLANG%
 
 cl 28_model_loading.cpp ^
     %IMGUI%/imgui.cpp ^
@@ -20,5 +22,7 @@ cl 28_model_loading.cpp ^
     /I%VULKAN%\include\volk ^
     %VULKAN%\Lib\SDL2.lib ^
     %VULKAN%\Lib\volk.lib ^
+    /I%IRRKLANG%\include\ ^
+    %IRRKLANG%\lib\irrklang.lib ^
     /link /SUBSYSTEM:CONSOLE /OUT:28_model_loading.exe
 

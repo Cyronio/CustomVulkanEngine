@@ -1,0 +1,62 @@
+
+newmtl ee
+	Ns 96.07842
+	Ni 1.50000
+	d 1.00000
+	Tr 0.00000
+	Tf 1.00000 1.00000 1.00000 
+	illum 2
+	Ka 0.00000 0.00000 0.00000
+	Kd 0.80000 0.80000 0.80000
+	Ks 0.90000 0.90000 0.90000
+	Ke 0.00000 0.00000 0.00000
+	map_Ka eyes_u2_v1.png
+	map_Kd eyes_u2_v1.png
+
+newmtl tail2
+	Ns 96.07842
+	Ni 1.50000
+	d 1.00000
+	Tr 0.00000
+	Tf 1.00000 1.00000 1.00000 
+	illum 2
+	Ka 0.00000 0.00000 0.00000
+	Kd 0.80000 0.80000 0.80000
+	Ks 0.20000 0.20000 0.20000
+	Ke 0.00000 0.00000 0.00000
+	map_Ka body_u2_v1.png
+	map_Kd body_u2_v1.png
+	map_bump NormalMap3.png
+	bump NormalMap3.png
+
+newmtl matd
+	Ns 96.07842
+	Ni 1.50000
+	d 1.00000
+	Tr 0.00000
+	Tf 1.00000 1.00000 1.00000 
+	illum 2
+	Ka 0.00000 0.00000 0.00000
+	Kd 0.41094 0.38481 0.37354
+	Ks 0.20000 0.20000 0.20000
+	Ke 0.00000 0.00000 0.00000
+	map_Ka body_u1_v1.png
+	map_Kd body_u1_v1.png
+	map_bump NormalMap2.png
+	bump NormalMap2.png
+
+newmtl monkey_head
+	Ns 96.07842
+	Ni 1.50000
+	d 1.00000
+	Tr 0.00000
+	Tf 1.00000 1.00000 1.00000 
+	illum 2
+	Ka 0.00000 0.00000 0.00000
+	Kd 0.57047 0.57047 0.57047
+	Ks 0.20000 0.20000 0.20000
+	Ke 0.00000 0.00000 0.00000
+	map_Ka head_u1_v1.png
+	map_Kd head_u1_v1.png
+	map_bump NormalMap.png
+	bump NormalMap.png
