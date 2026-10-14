@@ -53,6 +53,12 @@ set(HEADERS )
 
 add_executable(${TARGET} ${SOURCE} ${HEADERS})
 
+set(IRRKLANG_DIR "${PROJECT_SOURCE_DIR}/../irrKlang")
+
+target_include_directories(${TARGET} PRIVATE "${IRRKLANG_DIR}/include")
+
+target_link_libraries(${TARGET} PRIVATE "${IRRKLANG_DIR}/lib/irrKlang.lib")
+
 target_include_directories(${TARGET} PUBLIC stb)
 target_include_directories(${TARGET} PUBLIC ${VULKAN}/Include)
 target_include_directories(${TARGET} PUBLIC ${VULKAN}/Include/SDL2)
