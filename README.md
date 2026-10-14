@@ -5,7 +5,7 @@ It uses https://github.com/hlavacs/AdaptedVulkanTutorial. Please see below for b
 In the demo game you control a little alien slime that lives in the Viking Room and tries to protect the forest against black-and-whiteness. Light up the magical spheres in time before everything loses its color. <br>
 ***Engine specs*** <br>
 
-<img src="https://github.com/Cyronio/CubeShooter/blob/master/SlimeRancher.jpg">
+<img src="https://github.com/Cyronio/CustomVulkanEngine/blob/master/SlimeRancher.jpg">
 
 ### Controls
 
@@ -55,5 +55,3 @@ You need two prerequisites:
 * When using CMake, Imgui is automatically fetched from the Git repo (usually to build/_deps/imgui-src), no need to clone it.
 
 Only the CPP files are needed, no need to compile it.
-
-"# CustomVulkanEngine" 
