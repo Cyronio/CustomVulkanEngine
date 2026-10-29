@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.5.0)
 project (
-  "slime_rancher"
+  "slime_ranger"
   VERSION 2.0.0
   DESCRIPTION "A demo game showcasing a basic custom game engine using the Vulkan API"
   LANGUAGES CXX
@@ -36,7 +36,7 @@ FetchContent_MakeAvailable(Imgui)
 #include_directories(${imgui_SOURCE_DIR}/backends)
 set(IMGUI ${imgui_SOURCE_DIR})
 
-set(TARGET slime_rancher)
+set(TARGET slime_ranger)
 
 set(SOURCE
   ${IMGUI}/imgui.cpp
@@ -46,7 +46,7 @@ set(SOURCE
   ${IMGUI}/backends/imgui_impl_vulkan.cpp
   ${IMGUI}/imgui_tables.cpp
   ${IMGUI}/imgui_widgets.cpp
-  slime_rancher.cpp
+  slime_ranger.cpp
   )
 
 set(HEADERS )
