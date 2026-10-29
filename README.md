@@ -18,7 +18,7 @@ In the demo game you control a little alien slime that lives in the Viking Room 
 
 Camera controls with the arrow keys.
 
-### Build insttructions
+### Build Instructions
 
 Build using CMake:
 
