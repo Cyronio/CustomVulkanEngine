@@ -3,7 +3,6 @@
 Slime Ranger is a short and basic demo game to showcase a custom game engine built on top of an adapted version of the original Vulkan Tutorial. <br>
 It uses https://github.com/hlavacs/AdaptedVulkanTutorial. Please see below for build instructions and the respective folder for the license. <br>
 In the demo game you control a little alien slime that lives in the Viking Room and tries to protect the forest against black-and-whiteness. Light up the magical spheres in time before everything loses its color. <br>
-***Engine specs*** <br>
 
 <img src="https://github.com/Cyronio/CustomVulkanEngine/blob/main/SlimeRancher.jpg">
 
@@ -17,6 +16,8 @@ In the demo game you control a little alien slime that lives in the Viking Room 
 | <kbd>D</kbd>       | Down                                               |
 | <kbd>Space</kbd>   | Light Up Orb                                       |
 
+Camera controls with the arrow keys.
+
 ### Media Sources
 Sources from OpenGameArt.org: <br>
 Obj and Texture Files (public domain) <br>
@@ -24,8 +25,6 @@ Obj and Texture Files (public domain) <br>
 "Lively Meadow" by Mathew Pablo  <br>
 
 ### Video Demo
-
-***Video-File*** <br>
 
 YouTube: https://youtu.be/VbepFlzNZ0M <br>
 
