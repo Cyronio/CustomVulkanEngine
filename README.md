@@ -1,6 +1,6 @@
-# Slime Rancher
+# Slime Ranger
 
-Slime Rancher is a short and basic demo game to showcase a custom game engine built on top of an adapted version of the original Vulkan Tutorial. <br>
+Slime Ranger is a short and basic demo game to showcase a custom game engine built on top of an adapted version of the original Vulkan Tutorial. <br>
 It uses https://github.com/hlavacs/AdaptedVulkanTutorial. Please see below for build instructions and the respective folder for the license. <br>
 In the demo game you control a little alien slime that lives in the Viking Room and tries to protect the forest against black-and-whiteness. Light up the magical spheres in time before everything loses its color. <br>
 ***Engine specs*** <br>
